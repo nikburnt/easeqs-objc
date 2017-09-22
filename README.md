@@ -1,12 +1,11 @@
+![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/easeqs-objc/badge.png) [![GitHub issues](https://img.shields.io/github/issues/nikburnt/easeqs-objc.svg)]() [![Build Status](https://travis-ci.org/nikburnt/easeqs-objc.svg?branch=master)](https://travis-ci.org/nikburnt/easeqs-objc) [![codecov](https://codecov.io/gh/nikburnt/easeqs-objc/branch/master/graph/badge.svg)](https://codecov.io/gh/nikburnt/easeqs-objc)
+
 ### Quick Look
 
 This library was created for general usage when keyframe animations used and key values can't be easily interpolated thru animation progress.
 
 # easeqs
-![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/easeqs-objc/badge.png) [![GitHub issues](https://img.shields.io/github/issues/nikburnt/easeqs-objc.svg)]() [![Build Status](https://travis-ci.org/nikburnt/easeqs-objc.svg?branch=master)](https://travis-ci.org/nikburnt/easeqs-objc) [![codecov](https://codecov.io/gh/nikburnt/easeqs-objc/branch/master/graph/badge.svg)](https://codecov.io/gh/nikburnt/easeqs-objc)
-
 ## Availabble Easing Functions
-------------
 Here is the list of available easing functions:
 
 | | In | Out | InOut | OutIn |
@@ -86,7 +85,6 @@ CGFloat easedProgress = elasticInOut(progress, customAmplitude, ESQDefaultElasti
 Pleae, take a note, that default values for functions provided available in each header where this funciton described.
 
 ## Installing
-------------
 easeqs-objc is available through <a href="http://cocoapods.org/?q=eqseqs">CocoaPods</a> or may be easily build from source.
 
 ### Static Library
@@ -116,7 +114,6 @@ pod 'easeqs-objc'
 ```
 
 ## Roadmap
-------------
 - Add 4 dimensions structures keyframe animaiton support(CGRect)
 - Add <a href="https://github.com/Carthage/Carthage">Carthage</a> support
 - Think about better way to describe multiple easing funcitons for the animaiton of complex structures(2 or more dimensional)
