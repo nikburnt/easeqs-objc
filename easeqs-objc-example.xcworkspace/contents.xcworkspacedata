@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Sources"
+      name = "Sources">
+      <Group
+         location = "group:EasingFunctions"
+         name = "EasingFunctions">
+         <FileRef
+            location = "group:ESQBackEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQBackEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQBounceEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQBounceEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQCircularEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQCircularEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQCubicEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQCubicEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQElasticEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQElasticEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQExponentialEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQExponentialEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQLinearEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQLinearEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQQuadraticEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQQuadraticEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQQuarticEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQQuarticEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQQuinticEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQQuinticEasingFunction.m">
+         </FileRef>
+         <FileRef
+            location = "group:ESQSinusoidalEasingFunction.h">
+         </FileRef>
+         <FileRef
+            location = "group:ESQSinusoidalEasingFunction.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:easeqs_objc.h">
+      </FileRef>
+      <FileRef
+         location = "group:CAKeyframeAnimation+Easeqs.h">
+      </FileRef>
+      <FileRef
+         location = "group:CAKeyframeAnimation+Easeqs.m">
+      </FileRef>
+      <FileRef
+         location = "group:ESQEasingFunction.h">
+      </FileRef>
+      <FileRef
+         location = "group:ESQEasingFunction.m">
+      </FileRef>
+      <FileRef
+         location = "group:NSLayoutConstraint+Easeqs.h">
+      </FileRef>
+      <FileRef
+         location = "group:NSLayoutConstraint+Easeqs.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:easeqs-objc-example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
