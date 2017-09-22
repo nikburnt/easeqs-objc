@@ -4,7 +4,7 @@ This library was created for general usage when keyframe animations used and key
 
 # easeqs
 
-![](https://img.shields.io/github/stars/nikburnt/easeqs-objc.svg) [![Github All Releases](https://img.shields.io/github/downloads/nikburnt/easeqs-objc/total.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/dt/easeqs-objc.svg)]() [![GitHub release](https://img.shields.io/github/release/nikburnt/easeqs-objc.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/easeqs-objc.svg)]() [![GitHub issues](https://img.shields.io/github/issues/nikburnt/easeqs-objc.svg)]()[![Build Status](https://travis-ci.org/nikburnt/easeqs-objc.svg?branch=master)](https://travis-ci.org/nikburnt/easeqs-objc)
+[![GitHub release](https://img.shields.io/github/release/nikburnt/easeqs-objc.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/easeqs-objc.svg)]() [![GitHub issues](https://img.shields.io/github/issues/nikburnt/easeqs-objc.svg)]() [![Build Status](https://travis-ci.org/nikburnt/easeqs-objc.svg?branch=master)](https://travis-ci.org/nikburnt/easeqs-objc)
 
 ## Availabble Easing Functions
 ------------
@@ -121,4 +121,5 @@ pod 'easeqs-objc'
 - Add 4 dimensions structures keyframe animaiton support(CGRect)
 - Add <a href="https://github.com/Carthage/Carthage">Carthage</a> support
 - Think about better way to describe multiple easing funcitons for the animaiton of complex structures(2 or more dimensional)
+- Create Swift version
 
