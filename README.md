@@ -3,8 +3,7 @@
 This library was created for general usage when keyframe animations used and key values can't be easily interpolated thru animation progress.
 
 # easeqs
-
-[![GitHub release](https://img.shields.io/github/release/nikburnt/easeqs-objc.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/easeqs-objc.svg)]() [![GitHub issues](https://img.shields.io/github/issues/nikburnt/easeqs-objc.svg)]() [![Build Status](https://travis-ci.org/nikburnt/easeqs-objc.svg?branch=master)](https://travis-ci.org/nikburnt/easeqs-objc)
+![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/easeqs-objc/badge.png) [![GitHub issues](https://img.shields.io/github/issues/nikburnt/easeqs-objc.svg)]() [![Build Status](https://travis-ci.org/nikburnt/easeqs-objc.svg?branch=master)](https://travis-ci.org/nikburnt/easeqs-objc) [![codecov](https://codecov.io/gh/nikburnt/easeqs-objc/branch/master/graph/badge.svg)](https://codecov.io/gh/nikburnt/easeqs-objc)
 
 ## Availabble Easing Functions
 ------------
@@ -122,4 +121,3 @@ pod 'easeqs-objc'
 - Add <a href="https://github.com/Carthage/Carthage">Carthage</a> support
 - Think about better way to describe multiple easing funcitons for the animaiton of complex structures(2 or more dimensional)
 - Create Swift version
-
