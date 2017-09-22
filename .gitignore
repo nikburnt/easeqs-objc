@@ -1,0 +1,13 @@
+# macOS
+*.DS_Store
+
+# AppCode
+.idea
+
+# Pods
+Pods
+Podfile.lock
+
+# XCode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
