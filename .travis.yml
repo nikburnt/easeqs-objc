@@ -1,0 +1,18 @@
+language: objective-c
+osx_image: xcode9
+before_install:
+- chmod +x scripts/travis/add-key.sh
+- chmod +x scripts/travis/remove-key.sh
+before_script:
+- "./scripts/travis/add-key.sh"
+script:
+- xcodebuild clean && xcodebuild -workspace 'easeqs-objc-example.xcworkspace' -scheme
+  'easeqs-objc-example' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone
+  X,OS=11.0' build test
+after_script:
+- "./scripts/travis/remove-key.sh"
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+env:
+  global:
+    secure: NIOCa+QVmofsN12D76yXsihxIQq8P9wyn9W2laGvwxxuKe3jf9tTCOeicwkTaf8reG7rsL9DgALZu8h9WX9Enbwj6pJfmgNc/bArh2+/KNN1afStM980Lt6XiQPVOj/RGo2ni7LtJiswI5XZzH7c20ErQu6jAsgDT86KH7D2qZOf1uJm81NuWOnK3aJPOU+q37RZyy170wMRwohleSymu0mDvAjrJUESs2I6/pihoHrmuChNVQpEawijjaOUGHr6BASKIUP+Y5RiCuLAx1LiqeYhBi8TvOFLFtS6gMBJnHgxmmX8oFOphPkkPWOMZz1gLTogUn2K3XFcz00gFGeIlgNEUPEvcthmusEnQJwIttJf7OqBrRsD7z9/dXezxn8hn+oiXRaZsAT3RfBkcs0yemgkLXNp9G/vfBc8fB5s++N8UyygubrsobtQqgxoCVQm/hdOxAc9W1k9o9csAmdTvA0GYOtXuFCU77xkfA/S78jMXGFHYhfr9miSLuadybk6kul54GIOMK91WWEg9GSu7mfJwcqFqoQRGGXwdAIDdxHvlHJqBfbWGy1SDEBiA5YuwMMaAepyvfaJa9np7xXC9yYOyMGPqwsQK2FiN7ldtI80l3hA5iSRlirK8GmmpG9zcPFmup6bD6Gv3jcPX7Ok/Mr2pKBDVR1Zi+636HDVQRw=
