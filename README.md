@@ -65,7 +65,7 @@ Also, if you preffer funcitons or need more <abbr title="Functions are ~8x faste
 | ------------: | :------------: | :------------: | :------------: | :------------: |
 | Linear | `linearIn(p)` | `linearOut(p)` | `linearInOut(p)` | `linearOutIn(p)` |
 | Sinusoidal | `sinusoidalIn(p)` | `sinusoidalOut(p)` | `sinusoidalInOut(p)` | `sinusoidalOutIn(p)` |
-| Quadratic | `CGFloat quadraticIn(p)` | `CGFloat quadraticOut(p)` | `CGFloat quadraticInOut(p)` | `CGFloat quadraticOutIn(p)` |
+| Quadratic | `quadraticIn(p)` | `quadraticOut(p)` | `quadraticInOut(p)` | `quadraticOutIn(p)` |
 | Cubic | `cubicIn(p)` | `cubicOut(p)` | `cubicInOut(p)` | `cubicOutIn(p)` |
 | Quartic | `quarticIn(p)` | `quarticOut(p)` | `quarticInOut(p)` | `quarticOutIn(p)` |
 | Quintic | `quinticIn(p)` | `quinticOut(p)` | `quinticInOut(p)` | `quinticOutIn(p)` |
