@@ -6,7 +6,7 @@
 Pod::Spec.new do |spec|
 
   spec.name                  = 'easeqs-objc'
-  spec.version               = '0.1.0'
+  spec.version               = '0.1.1'
   spec.summary               = 'An easing equations for your purposes and some additionals for keyframe animations'
   spec.homepage              = 'https://github.com/nikburnt/easeqs-objc'
   spec.author                = { 'Nik Burnt' => 'nikburnt@gmail.com' }
