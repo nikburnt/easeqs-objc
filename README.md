@@ -89,26 +89,12 @@ Pleae, take a note, that default values for functions provided available in each
 ------------
 easeqs-objc is available through <a href="http://cocoapods.org/?q=eqseqs">CocoaPods</a> or may be easily build from source.
 
-### Static Library
-
-```ruby
-# platform *must* be at least 5.0
-platform :ios, '5.0'
-
-target :MyAppTarget, :exclusive => true do
-
-pod 'easeqs-objc'
-
-end
-```
-
 ### Dynamic Framework
 
 If you're using Swift, you may wish to install dynamic frameworks, which can be done with the Podfile shown below: 
 
 ```ruby
-# platform *must* be at least 8.0
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 use_frameworks!
 
